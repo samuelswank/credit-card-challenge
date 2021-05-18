@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/header'
+import RightPanel from './components/rightPanel'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <RightPanel />
   </React.StrictMode>,
   document.getElementById('root')
 );
