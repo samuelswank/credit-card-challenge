@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/header'
-import RightPanel from './components/rightPanel'
+import { RightPanel } from './components/panel'
 
 ReactDOM.render(
   <React.StrictMode>
